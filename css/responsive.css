@@ -1,0 +1,85 @@
+
+#navbar{
+    background-size:cover;
+    width:100%;
+    align-content: center;
+    margin:0px;  
+}
+#intro{
+    width:100%;
+    align-content: center;
+    margin:0px;
+}
+
+
+#mainintro{
+
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    margin:auto;
+
+}
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#tech{
+    flex-direction: column;
+    height: 800px;
+    width:100%;
+    align-content: center;
+    margin: 50px auto;
+
+}
+#head{
+    height: 600px;
+    width:100%;
+    align-content: center;
+    margin: 230px auto;
+}
+#hobhead{
+    width:100%;
+    align-content: center;
+    margin:auto;
+    
+}
+#contact{
+    width:100%;
+    align-content: center;
+    margin:80px auto;
+}
+#myhobbies{
+    width: 100%;
+}
+#mycontact{
+    width: 100%;
+}
+@media only screen and (max-width:800px){
+    #hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:500px){
+    .item{
+        margin: 0px 5px;
+    }
+    #mainintro{
+        height: 600px;
+    }
+}
+@media only screen and (max-width:400px){
+    #mainintro{
+        height: 700px;
+    }
+    .hobitem{
+        width: 280px;
+    }
+}
